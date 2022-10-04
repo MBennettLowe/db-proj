@@ -1,24 +1,16 @@
 import './App.css';
 
 // import Records from './records.json'
-import Data from './data.json'
+import DataRecords from './Components/DataRecords'
+
+
+
 
 function App() {
   return(
     <div>
-      <h2>JSON Data</h2>
-
-{
-  Data.map( data => {
-    return(
-      <div className='data-text' key={data.id}>
-        <li className='data-li'>{data.title}</li>
-       {data.content}
-      </div>
-    )
-  })
-}
-
+      <h1 className='header-text'>Media Contact Database</h1>
+      <DataRecords  />
     </div>
   )
 }

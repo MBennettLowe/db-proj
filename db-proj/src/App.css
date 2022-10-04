@@ -2,15 +2,9 @@
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.data-li {
-  color: chocolate;
-
+.header-text {
+  text-align: center;
+  color: blue;
 }
 
 .App-link {
